@@ -41,6 +41,7 @@ export default function Create() {
   }, [isConfirmed, toast, navigate]);
 
   const [formData, setFormData] = useState({
+    
     question: "",
     optionA: "",
     optionB: "",
